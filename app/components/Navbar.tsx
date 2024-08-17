@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="mdnav:fixed mdnav:top-0 mdnav:right-full mdnav:flex mdnav:items-center mdnav:justify-center mdnav:w-full mdnav:h-full mdnav:bg-yellow-600 z-50 mdnav:bg-slate-300 duration-300 transition-all" id="menu-bar">
           <ul className="flex mdnav:flex-col gap-16 text-center md:flex-row">
             {NAV_LINKS.map((link) => (
-              <li><Link key={link.key} href={link.path} className="uppercase text-3xl font-secondFont hover:text-white duration-300 transition-all md:text-[1rem] lg:text-xl md:text-white hover:md:text-yellow" onClick={toggleMenuHide}>{link.label}</Link></li>
+              <li key={link.key} ><Link href={link.path} className="uppercase text-3xl font-secondFont hover:text-white duration-300 transition-all md:text-[1rem] lg:text-xl md:text-white hover:md:text-yellow" onClick={toggleMenuHide}>{link.label}</Link></li>
             ))}
 
           </ul>

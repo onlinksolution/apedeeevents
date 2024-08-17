@@ -23,7 +23,7 @@ const page = () => {
 
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {EVENTS.map((link) => (
-            <article className="bg-slate-100 shadow-lg shadow-slate-300 px-5 py-7">
+            <article key={link.key} className="bg-slate-100 shadow-lg shadow-slate-300 px-5 py-7">
               <Image width={0} height={0} sizes="100vw" className="w-full" src={link.path} alt={link.key} />
 
               <div className="mt-3">
