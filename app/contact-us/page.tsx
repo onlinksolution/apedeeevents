@@ -38,11 +38,11 @@ const page = () => {
         <p className="text-slate-300 text-sm">Latest News About Ape Dee Events</p>
       </div>
 
-      <div className="py-20">
-        <h3 className="text-center font-secondFont text-4xl lg:text-5xl">Send Us a Message</h3>
+      <div className="py-20 w-full">
+        <h3 className="text-center font-secondFont text-2xl lg:text-5xl">Send Us a Message</h3>
         <div className="main_container">
-          <form className="mt-5 lg:flex w-full justify-center" onSubmit={handleSubmit}>
-            <div className="bg-slate-100 p-4 grid lg:w-2/3">
+          <form className="mt-5 lg:flex justify-center" onSubmit={handleSubmit}>
+            <div className="bg-slate-100 px-5 py-6 grid lg:w-2/3">
               <div className="grid gap-3 md:grid-cols-2">
                 <div className="flex flex-col gap-2">
                   <label>First Name:</label>
