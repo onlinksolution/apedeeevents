@@ -1,33 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Adamina&family=Poppins:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body,
+  button,
+  input {
+    font-size: 1rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  Image {
+    width: 100%;
+    height: auto;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .main_container {
+    max-width: 1124px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  @media screen and (min-width:1124px) {
+    .main_container {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.story_img {
+  width: 100%;
+  height: fit-content;
+  background-image: url('/story.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about_hero {
+  width: 100%;
+  height: 400px;
+  background-image: url('/about-us-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.event_hero {
+  width: 100%;
+  height: 400px;
+  background-image: url('/event-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.news_hero {
+  width: 100%;
+  height: 400px;
+  background-image: url('/news-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact_hero {
+  width: 100%;
+  height: 400px;
+  background-image: url('/contact-us-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

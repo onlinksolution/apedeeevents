@@ -13,6 +13,22 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        'mdnav': { 'max': '768px' }
+      },
+      colors: {
+        yellow: "#FFD200"
+      },
+      fontFamily: {
+        mainFont: ['Poppins', 'sans-serif'],
+        secondFont: ['Adamin', 'serif'],
+        storyFont: ['Abel', 'sans-serif'],
+      },
+      fontWeight: {
+        300: '300',
+        400: '400',
+        600: '600'
+      },
     },
   },
   plugins: [],
