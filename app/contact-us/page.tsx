@@ -43,12 +43,12 @@ const page = () => {
 
         <div className='main_container bg-slate-100 shadow-xl shadow-slate-300 py-10 mt-6 lg:flex lg:w-2/3 lg:justify-center'>
           <form className='px-3 py-4 lg:w-3/4' onSubmit={handleSubmit}>
-            <div className='md:grid md:grid-cols-2 gap-2 lg:gap-5'>
+            <div className='md:grid md:grid-cols-2 md:gap-4 lg:gap-5'>
               <div className='flex flex-col'>
                 <label>First Name:</label>
                 <input type="text" name="fname" className="py-3 px-3 outline-yellow" placeholder="Enter your first name" required />
               </div>
-              <div className='flex flex-col'>
+              <div className='flex flex-col mt-2 md:mt-0'>
                 <label>Last Name:</label>
                 <input type="text" name="lname" className="py-3 px-3 outline-yellow" placeholder="Enter your last name" required />
               </div>
