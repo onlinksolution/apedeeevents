@@ -2,6 +2,7 @@ import Link from "next/link"
 import { COMPANIES, NAV_LINKS } from "../constants"
 import { FaFacebook, FaInstagram } from "react-icons/fa"
 import { FaYoutube } from "react-icons/fa6"
+import Image from "next/image"
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="main_container">
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 items-center">
           {COMPANIES.map((link) => (
-            <img key={link.key} src={link.path} className="w-40 opacity-70 hover:opacity-100 transition-all" />
+            <Image width={0} height={0} sizes="100vw" alt="logo" key={link.key} src={link.path} className="w-40 opacity-70 hover:opacity-100 transition-all" />
           ))}
         </div>
 

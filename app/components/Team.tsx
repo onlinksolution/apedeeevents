@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { RiDoubleQuotesL } from "react-icons/ri"
 
 const Team = () => {
@@ -11,7 +12,7 @@ const Team = () => {
 
             <div className="bg-slate-50 shadow-xl shadow-slate-200  py-10 lg:py-7 px-8 grid lg:grid-cols-2 items-center lg:gap-10">
               <div className="grid justify-center gap-3 lg:order-2">
-                <img src="/team/iru.png" alt="ceo" className="border-8 border-yellow rounded-full w-52" />
+                <Image width={300} height={300} src="/team/iru.png" alt="ceo" className="border-8 border-yellow rounded-full w-52" />
 
                 <h3 className="text-center text-lg font-600 uppercase">Irunika Weerasekara</h3>
                 <span className="text-center text-2xl">CEO</span>
@@ -24,7 +25,7 @@ const Team = () => {
 
             <div className="bg-slate-50 shadow-xl shadow-slate-200  py-10 lg:py-7 px-8 grid lg:grid-cols-2 items-center lg:gap-10">
               <div className="grid justify-center gap-3 lg:order-2">
-                <img src="/team/kevin.png" alt="ceo" className="border-8 border-yellow rounded-full w-52" />
+                <Image width={300} height={300} src="/team/kevin.png" alt="ceo" className="border-8 border-yellow rounded-full w-52" />
 
                 <h3 className="text-center text-lg font-600 uppercase">Kevin Weerasekara</h3>
                 <span className="text-center text-2xl">PR Manager</span>

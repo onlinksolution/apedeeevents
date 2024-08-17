@@ -12,6 +12,7 @@ import 'swiper/css/navigation'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 import { PARTNERS } from '../constants'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Partners() {
   return (
@@ -53,7 +54,7 @@ export default function Partners() {
 
           {PARTNERS.map((link) => (
             <SwiperSlide>
-              <img src={link.path} key={link.key} className='w-32' />
+              <Image src={link.path} width={0} height={0} sizes='100vw' key={link.key} alt='partners' className='w-32' />
             </SwiperSlide>
           ))}
 

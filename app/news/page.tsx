@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { NEWS } from "../constants"
+import Image from "next/image"
 
 const page = () => {
   return (
@@ -16,7 +17,7 @@ const page = () => {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {NEWS.map((link) => (
             <article className="bg-slate-100 shadow-lg shadow-slate-300 px-5 py-7">
-              <img src={link.path} alt={link.key} />
+              <Image width={0} height={0} sizes="100vw" src={link.path} alt={link.key} className="w-full" />
 
               <div className="mt-3 grid gap-3">
                 <h3 className="font-600 text-2xl text-red-700 font-storyFont">{link.title}</h3>

@@ -4,6 +4,7 @@ import Link from "next/link"
 import Event from "../components/Event"
 import { EVENTS } from "../constants"
 import clsx from "clsx"
+import Image from "next/image"
 
 
 const page = () => {
@@ -23,7 +24,7 @@ const page = () => {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {EVENTS.map((link) => (
             <article className="bg-slate-100 shadow-lg shadow-slate-300 px-5 py-7">
-              <img src={link.path} alt={link.key} />
+              <Image width={0} height={0} sizes="100vw" className="w-full" src={link.path} alt={link.key} />
 
               <div className="mt-3">
                 <h3 className="font-600 text-3xl font-storyFont">{link.name}</h3>
@@ -39,9 +40,6 @@ const page = () => {
                   )}>{link.status}</label>
                 </div>
                 <Link href={link.link} className={clsx('mt-4 text-center grid bg-yellow p-4 hover:bg-black hover:text-white duration-300 transition-all text-xl disabled:',
-                  // {
-                  //   '': link.link == 'null'
-                  // }
                 )}>Buy Tickets</Link>
               </div>
             </article>
