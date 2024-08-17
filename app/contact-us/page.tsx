@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 
 const page = () => {
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.ChangeEvent<any>) {
     e.preventDefault();
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

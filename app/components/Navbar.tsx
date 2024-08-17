@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { BiMenu } from "react-icons/bi"
 import { CgClose } from "react-icons/cg"
 import { NAV_LINKS } from "../constants"
@@ -31,7 +31,9 @@ const Navbar = () => {
     }
   }
 
-  window.addEventListener('scroll', changeBackground)
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground)
+  }, [])
 
   return (
     <header className={navBar ? 'top-0 left-0 fixed w-full z-40 duration-300 transition-colors bg-black' : 'top-0 left-0 fixed w-full z-40 duration-300 transition-colors bg-transparent'}>
