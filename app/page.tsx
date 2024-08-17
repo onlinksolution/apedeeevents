@@ -22,7 +22,7 @@ export default function Home() {
     <main className="overflow-x-hidden">
       <section>
         <div className="absolute z-30 w-full h-screen text-center flex flex-col gap-10 justify-center items-center">
-          <h2 className="text-5xl px-5 !leading-snug text-white uppercase font-600 lg:text-6xl">Turning Visions into <br /><span className="bg-yellow text-black">Unforgettable</span> Events</h2>
+          <h2 className="text-2xl px-5 !leading-snug text-white uppercase font-600 lg:text-6xl">Turning Visions into <br /><span className="bg-yellow text-black">Unforgettable</span> Events</h2>
 
           <Link href="#welcome" className="animate-bounce">
             <BsArrowDown className="text-black bg-white rounded-full p-3" size={40} />
