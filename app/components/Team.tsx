@@ -14,7 +14,7 @@ const Team = () => {
               <div className="grid justify-center gap-3 lg:order-2">
                 <Image width={300} height={300} src="/team/iru.png" alt="ceo" className="border-8 border-yellow rounded-full w-52" />
 
-                <h3 className="text-center text-lg font-600 uppercase">Irunika Weerasekara</h3>
+                <h3 className="text-center text-lg font-600 uppercase">Irunika Mohottalalage</h3>
                 <span className="text-center text-2xl">CEO</span>
               </div>
               <div className="relative lg:order-1">

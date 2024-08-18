@@ -9,7 +9,7 @@ import Partners from "./components/Partners";
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
     <main className="overflow-x-hidden">
       <section>
         <div className="hero_img flex flex-col gap-12 justify-center items-center">
-          <h2 className="text-2xl text-center px-5 !leading-snug text-white uppercase font-600 lg:text-6xl">Turning Visions into <br /><span className="bg-yellow text-black">Unforgettable</span> Events</h2>
+          <h2 className="text-2xl md:text-5xl text-center px-5 !leading-snug text-white uppercase font-600 lg:text-6xl">Turning Visions into <br /><span className="bg-yellow text-black">Unforgettable</span> Events</h2>
 
           <Link href="#welcome" className="animate-bounce">
             <BsArrowDown className="text-black bg-white rounded-full p-3" size={40} />
