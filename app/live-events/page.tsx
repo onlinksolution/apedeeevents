@@ -35,7 +35,7 @@ const page = () => {
                     'text-lg text-end font-bold uppercase',
                     {
                       'text-green-700': link.status == 'Finished',
-                      'text-red-600': link.status == 'Live'
+                      'text-red-600 animate-pulse': link.status == 'Live'
                     },
                   )}>{link.status}</label>
                 </div>

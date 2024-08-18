@@ -28,7 +28,7 @@ const Footer = () => {
 
           </div>
           <p className="text-gray-300 text-sm order-2 text-center">&copy; 2024 Ape Dee Events Uk Ltd all rights reserved.</p>
-          <p className="text-gray-100 text-sm lg:text-start order-1 text-center">Developed By <Link href='/' className="hover:text-yellow">Onlink Solutions</Link></p>
+          <p className="text-gray-100 text-sm lg:text-start order-1 text-center">Developed By <Link href='https://www.onlinksolutions.online/' className="hover:text-yellow underline">Onlink Solutions</Link></p>
         </div>
       </div>
     </footer>
