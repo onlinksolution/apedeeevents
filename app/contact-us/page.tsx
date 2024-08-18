@@ -35,7 +35,7 @@ const page = () => {
     <section>
       <div className="contact_hero flex flex-col justify-center items-center">
         <h2 className="text-white font-600 text-5xl lg:text-7xl">Contact Us</h2>
-        <p className="text-slate-300 text-sm">Latest News About Ape Dee Events</p>
+        <p className="text-slate-300 text-sm">Get in touch with us</p>
       </div>
 
       <div className="py-20">
