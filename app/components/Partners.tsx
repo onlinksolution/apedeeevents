@@ -53,7 +53,7 @@ export default function Partners() {
 
 
           {PARTNERS.map((link) => (
-            <SwiperSlide>
+            <SwiperSlide key={link.key}>
               <Image src={link.path} width={0} height={0} sizes='100vw' key={link.key} alt='partners' className='w-32' />
             </SwiperSlide>
           ))}

@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className="flex flex-row gap-8 justify-center mt-10">
           {NAV_LINKS.map((link) => (
-            <Link href={link.path} className="text-slate-200 hover:text-yellow transition-all duration-300 text-[10px] md:text-sm">{link.label}</Link>
+            <Link href={link.path} key={link.key} className="text-slate-200 hover:text-yellow transition-all duration-300 text-[10px] md:text-sm">{link.label}</Link>
           ))}
         </div>
 
