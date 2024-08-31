@@ -42,6 +42,7 @@ export const EVENTS = [
 ]
 
 export const NEWS = [
+  { key: 'news5', path: '/news/weraliyadda_arrival.jpg', title: `✅ARRIVAL CONFIRMED!!✅`, description: `එන්න, සොඳුරු මතකයන් නැවත ආවර්ජනයට, ලංකාවේ හදවත් තුල නොමැකෙන හඬ සේනානායක වේරලියද්ද එංගලන්ත ආගමනය. ` },
   { key: 'news4', path: '/news/new-spon.png', title: 'We set our proud partners', description: `We are beyond grateful for our sponsor's incredible support and generosity which made the Sundown Live in Concert UK on September 29, 2024, an unforgettable experience!` },
   { key: 'news3', path: '/news/sponcers-post.png', title: 'We set our proud partners', description: `Our Proud Partners is a collaborative initiative that celebrates and highlights our valued partnerships with organizations and individuals dedicated to making a positive impact.` },
   { key: 'news2', path: '/news/limited-vip-tickets.png', title: 'Limited VIP Tickets are available', description: `Hurry Up, guys! Enjoy premium seating, expedited entry, a private lounge with complimentary refreshments, and an unforgettable meet-and-greet with the artists.` },
