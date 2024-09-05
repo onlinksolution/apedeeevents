@@ -37,7 +37,7 @@ export const COMPANIES = [
 ]
 
 export const EVENTS = [
-  { key: 'event2', link: 'https://www.gordon-craig.co.uk/sundown-i3587', path: '/live-events/sundown.jpg', name: 'Sundown Live in Concert', location: '@Gordon Craig Theatre', date: '2024 September 29', time: '3:30 PM', status: 'Live' },
+  { key: 'event2', link: 'https://everyonetheatres.com/whats-on/sundown/', path: '/live-events/sundown.jpg', name: 'Sundown Live in Concert', location: '@Gordon Craig Theatre', date: '2024 September 29', time: '3:30 PM', status: 'Live' },
   { key: 'event1', link: '/', path: '/live-events/kathuru-mithuru.jpg', name: 'Kathuru Mithuru Film', location: '@Broadway Cinema', date: '2024 January 07', time: '3:30 PM', status: 'Finished' }
 ]
 

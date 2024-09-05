@@ -79,7 +79,7 @@ const Countdown: React.FC<CountdownTimerProps> = ({ targetDate }) => {
 
       <div className="flex justify-center py-4 bg-gray-700">
         <div className="p-4 duration-500 rounded-lg bg-yellow hover:bg-orange-300" data-aos="flip-left">
-          <Link href="https://www.gordon-craig.co.uk/sundown-i3587"
+          <Link href="https://everyonetheatres.com/whats-on/sundown/"
             className="px-4 py-3 text-black lg:text-xl font-storyFont">BUY TICKETS</Link>
         </div>
       </div>
