@@ -42,6 +42,9 @@ export const EVENTS = [
 ]
 
 export const NEWS = [
+  { key: 'news8', path: '/news/kanchana_arrival.jpg', title: `✅ARRIVAL CONFIRMED!!✅`, description: `මියුරු හඩින් යෞවනයේ සිත් සොරාගත් හඬ ලාලිත්‍ය කාංචනා අනුරාධි එන්ගලන්ත ආගමනය. ` },
+  { key: 'news7', path: '/news/raween_arrival.jpg', title: `✅ARRIVAL CONFIRMED!!✅`, description: `සංගීතයේ ස්වර රටා මවන, යෞවනයේ සිහින තාරකාව රවීන් කනිෂ්ක එංගලන්ත සම්ප්‍රාප්තිය.` },
+  { key: 'news6', path: '/news/sarithsurith_arrival.jpg', title: `✅ARRIVAL CONFIRMED!!✅`, description: `අප සැමගේ හදවතට හුරු වී ඇති සංගීතයෙහි නාද මවන සහෝදරයන් දෙදෙනා සරිත් සුරිත් සමඟ NEWS ප්‍රථම එංගලන්ත ආගමනය.` },
   { key: 'news5', path: '/news/weraliyadda_arrival.jpg', title: `✅ARRIVAL CONFIRMED!!✅`, description: `එන්න, සොඳුරු මතකයන් නැවත ආවර්ජනයට, ලංකාවේ හදවත් තුල නොමැකෙන හඬ සේනානායක වේරලියද්ද එංගලන්ත ආගමනය. ` },
   { key: 'news4', path: '/news/new-spon.png', title: 'We set our proud partners', description: `We are beyond grateful for our sponsor's incredible support and generosity which made the Sundown Live in Concert UK on September 29, 2024, an unforgettable experience!` },
   { key: 'news3', path: '/news/sponcers-post.png', title: 'We set our proud partners', description: `Our Proud Partners is a collaborative initiative that celebrates and highlights our valued partnerships with organizations and individuals dedicated to making a positive impact.` },

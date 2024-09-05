@@ -14,7 +14,7 @@ const page = () => {
       <div className="py-40 main_container">
         <h2 className="font-secondFont text-center text-4xl pb-10">LATEST NEWS</h2>
 
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
           {NEWS.map((link) => (
             <article className="bg-slate-100 shadow-lg shadow-slate-300 px-5 py-7" key={link.key}>
               <Image width={0} height={0} sizes="100vw" src={link.path} alt={link.key} className="w-full" />

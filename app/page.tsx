@@ -11,6 +11,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import News from "./components/News";
 
 export default function Home() {
 
@@ -42,6 +43,7 @@ export default function Home() {
       <Story />
       <Team />
       <Event />
+      <News />
       <Partners />
 
     </main>
