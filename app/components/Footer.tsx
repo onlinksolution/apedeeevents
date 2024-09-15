@@ -3,6 +3,7 @@ import { COMPANIES, NAV_LINKS } from "../constants"
 import { FaFacebook, FaInstagram } from "react-icons/fa"
 import { FaYoutube } from "react-icons/fa6"
 import Image from "next/image"
+import { TfiEmail } from "react-icons/tfi"
 
 const Footer = () => {
   return (
@@ -25,6 +26,7 @@ const Footer = () => {
             <Link href="https://web.facebook.com/apedeeeventsuk/"><FaFacebook className="text-gray-300 hover:text-yellow duration-300 transition-all" size={25} /></Link>
             <Link href="https://www.instagram.com/eventsapedee/"><FaInstagram className="text-gray-300 hover:text-yellow duration-300 transition-all" size={25} /></Link>
             <Link href="https://www.youtube.com/@ApeDeeEventsUK"><FaYoutube className="text-gray-300 hover:text-yellow duration-300 transition-all" size={25} /></Link>
+            <Link href="mailto:info@apedeeeventsuk.com"><TfiEmail className="text-gray-300 hover:text-yellow duration-300 transition-all" size={25} /></Link>
 
           </div>
           <p className="text-gray-300 text-sm order-2 text-center">&copy; 2024 Ape Dee Events Uk Ltd all rights reserved.</p>
