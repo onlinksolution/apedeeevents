@@ -21,6 +21,8 @@ export default function RootLayout({
         <Loading />
         <Navbar />
         {children}
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div className="elfsight-app-a38be0b2-35ee-4057-bef8-e78d4bdbbf33" data-elfsight-app-lazy></div>
         <Footer />
       </body>
     </html>
