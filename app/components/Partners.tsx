@@ -23,42 +23,14 @@ export default function Partners() {
             <h2 className="font-secondFont text-center text-4xl">OUR PARTNERS</h2>
           </div>
         </div>
-        <Swiper
-          slidesPerView={3}
-          spaceBetween={10}
-          centeredSlides={true}
-          loop={true}
-          breakpoints={{
-            640: {
-              slidesPerView: 5,
-              spaceBetween: 10,
-            },
-            768: {
-              slidesPerView: 8,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 8,
-              spaceBetween: 40,
-            },
-          }}
-          autoplay={{
-            delay: 500,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay]}
-          className="mySwiper"
-        >
 
-
-
+        <div className='play whitespace-nowrap'>
           {PARTNERS.map((link) => (
-            <SwiperSlide key={link.key}>
-              <Image src={link.path} width={0} height={0} sizes='100vw' key={link.key} alt='partners' className='w-32' />
-            </SwiperSlide>
+            <div key={link.key} className='inline-block flex-1'>
+              <Image src={link.path} width={160} height={160} key={link.key} alt='partners' />
+            </div>
           ))}
-
-        </Swiper>
+        </div>
 
       </section>
 
