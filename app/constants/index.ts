@@ -37,8 +37,9 @@ export const COMPANIES = [
 ]
 
 export const EVENTS = [
-  { key: 'event2', link: 'https://everyonetheatres.com/whats-on/sundown/', path: '/live-events/sundown.jpg', name: 'Sundown Live in Concert', location: '@Gordon Craig Theatre', date: '2024 September 29', time: '3:30 PM', status: 'Live' },
-  { key: 'event1', link: '/', path: '/live-events/kathuru-mithuru.jpg', name: 'Kathuru Mithuru Film', location: '@Broadway Cinema', date: '2024 January 07', time: '3:30 PM', status: 'Finished' }
+  { key: 'event3', link: '/', path: '/live-events/kasi-wasi.jpg', name: 'Kasi Wasi Film', location: '@Broadway Cinema', date: '2025 March 16', time: '3:30 PM', status: 'Live' },
+  { key: 'event2', link: 'https://everyonetheatres.com/whats-on/sundown/', path: '/live-events/sundown.jpg', name: 'Sundown Live in Concert', location: '@Gordon Craig Theatre', date: '2024 September 29', time: '3:30 PM', status: 'Finished' },
+  { key: 'event1', link: '/', path: '/live-events/kathuru-mithuru.jpg', name: 'Kathuru Mithuru Film', location: '@Broadway Cinema', date: '2024 January 07', time: '3:30 PM', status: 'Finished' },
 ]
 
 export const NEWS = [
